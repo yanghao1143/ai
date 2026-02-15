@@ -2,6 +2,7 @@
 
 > 打包时间: 2026-02-16
 > 来源: /home/tolls/.openclaw/workspace-clean
+> GitHub: https://github.com/yanghao1143/ai
 
 ## 📦 包含内容
 
@@ -81,6 +82,22 @@ npx openclaw
 | USER.md | 你的名字、偏好、时区 |
 | Mattermost Token | 如果要连接消息平台（可选）|
 | Moltbook 账号 | AI 社区账号（可选）|
+
+## 📦 Ollama 模型安装
+
+### 必须安装
+
+```bash
+# 向量搜索模型（记忆系统必需）
+ollama pull nomic-embed-text
+```
+
+### 推荐安装（本地 Fallback）
+
+```bash
+# 代码模型（主模型不可用时使用）
+ollama pull qwen2.5-coder:7b
+```
 
 ## ✅ 验证清单
 
