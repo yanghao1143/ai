@@ -1,0 +1,19 @@
+{
+  "models": {
+    "anthropic/claude-sonnet-4-20250514": {
+      "apiKey": "${ANTHROPIC_API_KEY}",
+      "baseURL": "https://api.anthropic.com"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-20250514"
+      }
+    }
+  },
+  "memory": {
+    "workspace": "~/openclaw-workspace",
+    "autoSave": true
+  }
+}
